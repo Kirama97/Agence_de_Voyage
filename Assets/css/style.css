@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    font-family: Roboto;
+    box-sizing: border-box;
+}
+
+header {
+    
+   background: url(/images/photo/header2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+.book_content_right svg {
+    fill :rgb(255, 255, 255);
+    color : rgb(148, 142, 142);
+    
+}
+.book_content_right a:hover svg {
+  
+    color : rgba(231, 184, 55, 0.815);
+    transition: 0.3s ease;
+}
+.book_content_right .coeur {
+    color: oklch(0.673 0.182 276.935);
+}
+
+.carde_item:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-out;
+}
+
