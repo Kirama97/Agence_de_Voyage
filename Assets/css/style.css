@@ -11,7 +11,7 @@
 
 header {
     
-   background: url(/images/photo/header2.png);
+    background-image: url(/images/photo/header.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -38,4 +38,10 @@ input::placeholder {
     transform: scale(1.1);
     transition: 0.3s ease-out;
 }
+
+
+ h1{
+    font-family: Volkhov;
+}
+
 

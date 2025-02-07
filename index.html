@@ -9,11 +9,11 @@
 </head>
 <body>
      
- <header class=" w-full h-screen">
+ <header class=" px-15 xl:px-50 lg:px-30   w-full h-screen  bg-[url(/images/photo/500.png)] ">
   
 
-    <nav class="w-full flex justify-between items-center px-50 py-6 fixed top-0 right-0 z-100">
-        <div class="logo text-2xl ">
+    <nav class="w-full flex justify-between items-center py-6  ">
+        <div class="logo text-xl xl:text-2xl ">
             <img src="/images/icone/Logo.svg" alt="" srcset="">
         </div>
        <div class="nav_link md:flex items-center gap-15 text-base font-medium hidden" >
@@ -22,8 +22,7 @@
         <a href="" class=" hover:text-yellow-600 font-semibold">Flights</a>
         <a href="" class=" hover:text-yellow-600 font-semibold">Bookings</a>
         <a href="" class=" hover:text-yellow-600 font-semibold">Login</a>
-        <a href="" class=" hover:text-yellow-600 font-semibold">Login</a>
-        <button class="px-10 py-2 rounded-lg border-1 font-semibold text-dark hover:bg-blue-700 hidden  md:block">Sign up</button>
+        <button class="px-10 py-2 rounded-lg border-1 font-semibold text-dark hover:bg-amber-500 hover:text-white hidden  md:block">Sign up</button>
         <select name="" id="" class="text-dark p-2 focus:outline-none font-semibold">
             <option class="w-lg" value="">EN</option>
             <option value="" class="w-lg">FR</option>
@@ -32,36 +31,105 @@
         
     </nav>
 
+     <div class="header_content flex justify-beetween w-full  h-full">
+        <div class="header_content_left  w-1/2 flex flex-col gap-10 pt-40 ">
+            <h4 class="text-xl font-bold text-red-500">Best Destinations around the world</h4>
+            <h1 class="text-8xl text-blue-950 ">Travel, <span>enjoy</span>
+                and live a new
+                and full life</h1>
+                <p class="text-xl/9 text-blue-950 w-150 ">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+                <div class="btn flex gap-5">
+                    <button class="py-5 rounded-xl px-15 bg-amber-500 text-white  hover:bg-amber-400 ">Fond out more</button>
+                    <button class="rounded-full   hover:bg-red-400   bg-red-400 text-white p-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+                    </button>
+                </div>
+
+        </div>
+        <div class="header_content_right w-1/2 h-screen hidden md:block bg-[url(/images/photo/fille_baniere.png)] bg-no-repeat ">
+            
+        </div>
+     
+    </div> 
+
  </header>
 
 
- <main class="bg">
-    <section class=" ">
+
+
+
+ <main class="">
+    <section class="category  px-10 lg:px-30  xl:px-50  w-full py-5 my-10 lg:my-15 xl:my-20">
+       <div class="category_text text-center">
+        <p class="text-lg lg:text-xl xl:text-2xl font-medium text-blue-900 opacity-70   ">Category</p>
+        <h1 class=" text-blue-950 text-2xl lg:text-3xl xl:text-5xl font-bold my-5 ">We Offer Best Services</h1>
+       </div>
+       <div class="category_content  mt-20 
+      max-w-2xl mx-auto 
+        lg:max-w-full grid grid-cols-1 gap-y-10 gap-x-5
+        sm:grid-cols-1
+        lg:grid-cols-2
+        xl:grid-cols-4
+         ">
+         <div class="category_item flex flex-col gap-4 p-4 items-center hover:shadow-xl  hover:rounded-2xl ">
+          
+                <img class="w-20 h-20" src="/images/icone/category1.svg" alt="" srcset="">
+                <h3 class="text-xl text-blue-900 font-regular">Calculated Weather</h3>
+                <p class=" text-center text-blue-900 font-regular opacity-70 lg:px-10">Built Wicket longer admire do barton vanity itself do in it.</p>
+         </div>
+         <div class="category_item   flex flex-col gap-4 p-4 items-center">
+           
+                <img class="w-20 h-20" src="/images/icone/category2.svg" alt="" srcset="">
+                <h3 class="text-xl text-blue-900 font-regular">Best Flights</h3>
+                <p class=" text-center text-blue-900 font-regular opacity-70  lg:px-10 ">Engrossed listening. Park gate sell they west hard for the.</p>
        
+         </div>
+      
+         <div class="category_item p-4 flex flex-col gap-4  items-center">
+          
+                <img class="w-20 h-20" src="/images/icone/category3.svg" alt="" srcset="">
+                <h3 class="text-xl text-blue-900 font-regular">Local Events</h3>
+                <p class=" text-center text-blue-900 font-regular opacity-70  lg:px-10">Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+          
+         </div>
+         <div class="category_item  p-4 flex flex-col gap-4  items-center">
+           
+                <img class="w-20 h-20" src="/images/icone/category4.svg" alt="" srcset="">
+                <h3 class="text-xl text-blue-900 font-regular">Customization</h3>
+                <p class=" text-center text-blue-900 font-regular opacity-70 lg:px-10">We deliver outsourced aviation services for military customers</p>
+        
+         </div>
+   
+
+
+
+       </div>
     </section>
 
-    <section class="presentation  w-full py-[7%] px-[10%]">
-        <h1 class="text-center text-4xl font-bold">Une expérience satisfaisante tout au long de vos voyages</h1>
-        <p class="text-center w-[60%] m-auto my-15">Voyager est bien plus qu'un simple déplacement, c'est une expérience qui doit être à la fois agréable et sans souci. Notre mission est de vous offrir une satisfaction complète à chaque étape de votre parcours. Du confort à bord à la simplicité des services, nous mettons tout en œuvre pour que vos voyages soient synonymes de plaisir, de sécurité et de tranquillité d'esprit. Profitez pleinement de chaque trajet, nous nous occupons du reste.</p>
+    <section class="presentation  px-10  lg:px-30 xl:px-50 w-full my-5 lg:my-20 xl:my-50 ">
+        <div class="presentation_text text-center">
+            <p class="text-lg lg:text-xl xl:text-2xl font-medium text-blue-900 opacity-70">Top Selling</p>
+            <h1 class=" text-blue-950 text-2xl lg:text-3xl xl:text-5xl font-bold my-5 ">Top Destination</h1>
+        </div>
 
         <div class="presentation_carde mt-[7%]
         max-w-2xl mx-auto 
-        lg:max-w-full grid grid-cols-1 gap-y-10 gap-x-8
-        sm:grid-cols-2 
+        lg:max-w-full grid grid-cols-1 gap-y-10 gap-x-15
+        sm:grid-cols-2
         lg:grid-cols-3
-        xl:grid-cols-4
+        xl:grid-cols-3 
         ">
        
             <div class="carde_item bg-white shadow-lg rounded-lg ">
-                <img src="/images/photo/paris.jpg" class="rounded-t-lg" alt="" srcset="">
+                <img src="/images/photo/rome.jpg" class="rounded-t-lg" alt="" srcset="">
                 <div class="p-4">
                     <div class="flex mb-5 justify-between">
-                        <h4>Paris , sénégal</h4>
-                        <p class="text-gray-700 font-bold">350 000 cfa</p>
+                        <h4>Rome, Itali</h4>
+                        <p class="text-gray-700 font-bold">$5,42k</p>
                     </div>
                     <a href="" class="inline-flex items-center justify-between gap-3 py-1 font-medium ">
                         <img class=" h-5 w-6" src="/images/icone/paper-plane-solid.svg" alt="" srcset="">
-                    <span class="text-gray-700 text-lg">visiter</span>
+                    <span class="text-gray-700 text-lg">10 Days Trip</span>
 
                     </a>
 
@@ -73,15 +141,15 @@
             </div>
 
             <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/usa.jpg" class="rounded-t-lg" alt="" srcset="">
+                <img src="/images/photo/londre.jpg" class="rounded-t-lg" alt="" srcset="">
                 <div class="p-4">
                     <div class="flex mb-5 justify-between">
-                        <h4>Usa , sénégal</h4>
-                        <p class="text-gray-700 font-bold">650 000 cfa</p>
+                        <h4>London, UK</h4>
+                        <p class="text-gray-700 font-bold">$4.2k</p>
                     </div>
                     <a href="" class="inline-flex items-center justify-between gap-3 py-1 font-medium ">
                         <img class=" h-5 w-6" src="/images/icone/paper-plane-solid.svg" alt="" srcset="">
-                    <span class="text-gray-700 text-lg">visiter</span>
+                    <span class="text-gray-700 text-lg">12 Days Trip</span>
 
                     </a>
 
@@ -93,15 +161,15 @@
            </div>
 
             <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/londre.jpg" class="rounded-t-lg" alt="" srcset="">
+                <img src="/images/photo/europe.jpg" class="rounded-t-lg" alt="" srcset="">
                 <div class="p-4">
                     <div class="flex mb-5 justify-between">
-                        <h4>Londre , sénégal</h4>
-                        <p class="text-gray-700 font-bold">750 000 cfa</p>
+                        <h4>Full Europe</h4>
+                        <p class="text-gray-700 font-bold">$15k</p>
                     </div>
                     <a href="" class="inline-flex items-center justify-between gap-3 py-1 font-medium ">
                         <img class=" h-5 w-6" src="/images/icone/paper-plane-solid.svg" alt="" srcset="">
-                    <span class="text-gray-700 text-lg">visiter</span>
+                    <span class="text-gray-700 text-lg">28 Days Trip</span>
 
                     </a>
 
@@ -109,91 +177,12 @@
 
             </div>
             
-            <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/suisse.jpg" class="rounded-t-lg" alt="" srcset="">
-                <div class="p-4">
-                    <div class="flex mb-5 justify-between">
-                        <h4>Suisse , sénégal</h4>
-                        <p class="text-gray-700 font-bold">450 000 cfa</p>
-                    </div>
-                    <a href="" class="inline-flex items-center justify-between gap-3 py-1 font-medium ">
-                        <img class=" h-5 w-6" src="/images/icone/paper-plane-solid.svg" alt="" srcset="">
-                    <span class="text-gray-700 text-lg">visiter</span>
-
-                    </a>
-
-                </div>
-
-            </div>
-            <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/chine.jpg" class="rounded-t-lg" alt="" srcset="">
-                <div class="p-4">
-                    <div class="flex mb-5 justify-between">
-                        <h4>Chine , sénégal</h4>
-                        <p class="text-gray-700 font-bold">950 000 cfa</p>
-                    </div>
-                    <a href="" class="inline-flex items-center justify-between gap-3 py-1 font-medium ">
-                        <img class=" h-5 w-6" src="/images/icone/paper-plane-solid.svg" alt="" srcset="">
-                    <span class="text-gray-700 text-lg">visiter</span>
-
-                    </a>
-
-                </div>
-
-            </div>
-            <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/canada.jpg" class="rounded-t-lg" alt="" srcset="">
-                <div class="p-4">
-                    <div class="flex mb-5 justify-between">
-                        <h4>Canada , sénégal</h4>
-                        <p class="text-gray-700 font-bold">1 100 000 cfa</p>
-                    </div>
-                    <a href="" class="inline-flex items-center justify-between gap-3 py-1 font-medium ">
-                        <img class=" h-5 w-6" src="/images/icone/paper-plane-solid.svg" alt="" srcset="">
-                    <span class="text-gray-700 text-lg">visiter</span>
-
-                    </a>
-
-                </div>
-
-            </div>
-            <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/russie.jpg" class="rounded-t-lg" alt="" srcset="">
-                <div class="p-4">
-                    <div class="flex mb-5 justify-between">
-                        <h4>Russie , sénégal</h4>
-                        <p class="text-gray-700 font-bold">720 000 cfa</p>
-                    </div>
-                    <a href="" class="inline-flex items-center justify-between gap-3 py-1 font-medium ">
-                        <img class=" h-5 w-6" src="/images/icone/paper-plane-solid.svg" alt="" srcset="">
-                    <span class="text-gray-700 text-lg">visiter</span>
-
-                    </a>
-
-                </div>
-
-            </div>
-            <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/grece.jpg" class="rounded-t-lg" alt="" srcset="">
-                <div class="p-4">
-                    <div class="flex mb-5 justify-between">
-                        <h4>Grece , sénégal</h4>
-                        <p class="text-gray-700 font-bold">550 000 cfa</p>
-                    </div>
-                    <a href="" class="inline-flex items-center justify-between gap-3 py-1 font-medium ">
-                        <img class=" h-5 w-6" src="/images/icone/paper-plane-solid.svg" alt="" srcset="">
-                    <span class="text-gray-700 text-lg">visiter</span>
-
-                    </a>
-
-                </div>
-
-            </div>
+          
 
  
     </section>
 
-    <section class="book w-full h-screen  px-[10%] pt-[2%]">
+    <!-- <section class="book w-full h-screen  px-[10%] pt-[2%]">
           <div class="w-full " >
             <h3 class="text-xl text-gray-500 font-bold"  >Facile et Rapide</h3>
               <div class="book_content flex justify-between max-w-xl  mx-auto lg:max-w-full">
@@ -301,10 +290,8 @@
                     </div>
               </div>
           </div>
-    </section>
-    <section>
+    </section> -->
   
-    </section>
  </main>
 
 
