@@ -53,3 +53,31 @@ input::placeholder {
    
 }
 
+.nav_link {
+    display: none;
+    
+ 
+
+}
+
+
+@media  (max-width:1050px) {
+
+    .nav_link.active{
+        display :flex;
+        position: absolute;
+        top :10% ; 
+        left: 0;
+        width: 100%;
+        padding: 50px;
+        flex-direction: column;
+        background-color: rgb(223, 170, 72);
+        color: white;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.318);
+    }
+
+    .nav_link.active .sign {
+        display: flex;
+    }
+    
+}
