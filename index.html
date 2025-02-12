@@ -63,7 +63,7 @@
     <section class="category  px-10 lg:px-30  xl:px-50  w-full py-5 my-10 lg:my-15 xl:my-20">
        <div class="category_text text-center">
         <p class="text-lg lg:text-xl xl:text-2xl font-medium text-blue-900 opacity-70   ">Category</p>
-        <h1 class=" text-blue-950 text-2xl lg:text-3xl xl:text-5xl font-bold my-5 ">We Offer Best Services</h1>
+        <h1 class=" text-blue-950 text-xl lg:text-3xl xl:text-5xl font-bold my-5 ">We Offer Best Services</h1>
        </div>
        <div class="category_content  mt-20 
       max-w-2xl mx-auto 
@@ -108,21 +108,21 @@
     </section>
 
     <section class="presentation  px-10  lg:px-30 xl:px-50 w-full my-5 lg:my-20 xl:my-50 ">
-        <div class="presentation_text text-center">
+        <div class="presentation_text text-center mb-15">
             <p class="text-lg lg:text-xl xl:text-2xl font-medium text-blue-900 opacity-70">Top Selling</p>
-            <h1 class=" text-blue-950 text-2xl lg:text-3xl xl:text-5xl font-bold my-5 ">Top Destination</h1>
+            <h1 class=" text-blue-950 text-xl lg:text-3xl xl:text-5xl font-bold my-5 ">Top Destination</h1>
         </div>
 
-        <div class="presentation_carde mt-[7%]
+        <div class="presentation_carde mt-[7%] gap-y-10
         max-w-2xl mx-auto 
-        lg:max-w-full grid grid-cols-1 gap-y-10 gap-x-15
+        lg:max-w-full grid grid-cols-1  gap-x-15
         sm:grid-cols-2
-        lg:grid-cols-3
+        lg:grid-cols-3 md:gap-y-30
         xl:grid-cols-3 
         ">
        
             <div class="carde_item bg-white shadow-lg rounded-lg ">
-                <img src="/images/photo/rome.jpg" class="rounded-t-lg" alt="" srcset="">
+                <img src="/images/photo/rome.jpg" class="rounded-t-lg h-50 md:h-full  w-full " alt="" srcset="">
                 <div class="p-4">
                     <div class="flex mb-5 justify-between">
                         <h4>Rome, Itali</h4>
@@ -142,7 +142,7 @@
             </div>
 
             <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/londre.jpg" class="rounded-t-lg" alt="" srcset="">
+                <img src="/images/photo/londre.jpg" class="rounded-t-lg h-50 md:h-full  w-full" alt="" srcset="">
                 <div class="p-4">
                     <div class="flex mb-5 justify-between">
                         <h4>London, UK</h4>
@@ -162,7 +162,7 @@
            </div>
 
             <div class="carde_item bg-white shadow-lg rounded-lg">
-                <img src="/images/photo/europe.jpg" class="rounded-t-lg" alt="" srcset="">
+                <img src="/images/photo/europe.jpg" class="rounded-t-lg h-50 md:h-full  w-full" alt="" srcset="">
                 <div class="p-4">
                     <div class="flex mb-5 justify-between">
                         <h4>Full Europe</h4>
@@ -183,46 +183,47 @@
  
     </section>
 
-    <!-- <section class="book w-full   px-[10%] py-[2%]">
-          <div class="w-full " >
-            <h3 class="text-xl text-gray-500 font-bold"  >Facile et Rapide</h3>
-              <div class="book_content flex justify-between max-w-xl  mx-auto lg:max-w-full">
+     <section class="book w-full mt-30 pb-20 lg:mt-0  ">
 
-                    <div class="book_content_left w-[50%]">
-                    <h1 class="text-4xl font-bold my-10  text-blue-950 ">Réservez votre prochain voyage en 3 étapes simples</h1>
+          <div class="w-full   px-5 lg:px-30  xl:px-50   " >
+            <h3 class=" text-md  lg:text-xl   text-gray-500 font-semibold"  >Facile et Rapide</h3>
+              <div class="book_content flex justify-between w-full flex-col lg:flex-row  mx-auto ">
+
+                    <div class="book_content_left w-full lg:w-[50%] ">
+                    <h1 class="text-lg lg:text-2xl xl:text-4xl font-bold my-10  text-blue-950 ">Réservez votre prochain voyage en 3 étapes simples</h1>
 
                     <div class="flex gap-4 mb-10 justify-between" >
-                            <div class="w-[10%] h-[60px] rounded-xl bg-yellow-500 flex items-center justify-center">
-                                <ion-icon class="text-3xl text-white" name="scan-outline"></ion-icon>
+                            <div class="w-10 h-10 lg:w-[10%] lg:h-[60px] rounded-xl bg-yellow-500 flex items-center justify-center">
+                                <ion-icon class="text-xl lg:text-2xl xl:text-3xl text-white" name="scan-outline"></ion-icon>
                             </div>
 
                             <div class=" w-[90%] ">
-                                <h4 class="text-lg font-bold text-gray-500">Choisi ta destination</h4>
-                                <p class="w-[80%] text-gray-500">Planifiez votre prochaine aventure en toute simplicité. Choisissez votre destination, confirmez votre réservation en quelques clics.</p>
+                                <h4 class="text-md lg:text-lg font-bold text-gray-500">Choisi ta destination</h4>
+                                <p class="w-full lg:w-[80%] text-sm lg:text-lg text-gray-500">Planifiez votre prochaine aventure en toute simplicité. Choisissez votre destination, confirmez votre réservation en quelques clics.</p>
 
                             </div>
 
                     </div>
                     <div class="flex gap-4 mb-10 justify-between" >
-                            <div class="w-[10%] h-[60px] rounded-xl bg-red-500 flex items-center justify-center">
+                            <div class="w-10 h-10 lg:w-[10%] lg:h-[60px] rounded-xl bg-red-500 flex items-center justify-center">
                 
-                                <ion-icon class="text-3xl text-white" name="cash-outline"></ion-icon>
+                                <ion-icon class="text-xl lg:text-2xl xl:text-3xl text-white" name="cash-outline"></ion-icon>
                             </div>
                             <div class=" w-[90%]">
-                                <h4 class="text-lg font-bold text-gray-500">Moyen de payement</h4>
-                                <p class="w-[72%] text-gray-500">Optez pour des paiements sécurisés : carte bancaire, portefeuille électronique ou paiement à la livraison.</p>
+                                <h4 class="text-md lg:text-lg font-bold text-gray-500">Moyen de payement</h4>
+                                <p class="w-full lg:w-[80%] text-sm lg:text-lg text-gray-500">Optez pour des paiements sécurisés : carte bancaire, portefeuille électronique ou paiement à la livraison.</p>
 
                             </div>
 
                     </div>
 
                     <div class="flex gap-4 mb-10 justify-between" >
-                            <div class="w-[10%] h-[60px] rounded-xl bg-teal-800 flex items-center justify-center">
-                                <ion-icon class="text-3xl text-white" name="car-outline"></ion-icon>
+                            <div class="w-10 h-10 lg:w-[10%] lg:h-[60px] rounded-xl bg-teal-800 flex items-center justify-center">
+                                <ion-icon class="text-xl lg:text-2xl xl:text-3xl text-white" name="car-outline"></ion-icon>
                             </div>
                             <div class=" w-[90%]">
-                                <h4 class="text-lg font-bold text-gray-500">Arrivez à l'aéroport à la date choisie</h4>
-                                <p class="w-[80%] text-gray-500">Assurez votre arrivée à l'aéroport à la date sélectionnée. Profitez d'un service fiable pour voyager en toute tranquillité .</p>
+                                <h4 class="text-md lg:text-lg font-bold text-gray-500">Arrivez à l'aéroport à la date choisie</h4>
+                                <p class="w-full lg:w-[80%] text-sm lg:text-lg text-gray-500">Assurez votre arrivée à l'aéroport à la date sélectionnée. Profitez d'un service fiable pour voyager en toute tranquillité .</p>
 
                             </div>
 
@@ -230,44 +231,44 @@
 
                         
                     </div>
-                    <div class="book_content_right  w-[35%] relative ">
+                    <div class="book_content_right w-full   lg:w-md xl:w-lg  2xl:w-xl relative ">
 
-                        <div class="bg-white shadow-lg rounded-4xl p-10 h-[60vh]">
+                        <div class="bg-white shadow-lg rounded-4xl p-10 h-60vh lg:h-full">
 
-                            <img src="/images/photo/belgique.jpg" class="rounded-4xl h-[25vh] w-full object-cover" alt="" srcset="">
+                            <img src="/images/photo/belgique.jpg" class="rounded-4xl h-[15vh] lg:h-[25vh]  w-full object-cover" alt="" srcset="">
 
                             <div class="py-7">
                                
-                                    <h4 class="text-xl font-bold mb-5">Voyage au belgique</h4>
-                                    <h5 class="text-lg font-semibold text-gray-400 mb-5">14-29 Mars | par Diene Thiam</h5>
+                                    <h4 class="text-md lg:text-xl font-bold mb-5">Voyage au belgique</h4>
+                                    <h5 class="text-sm lg:text-lg font-semibold text-gray-400 mb-5">14-29 Mars | par Diene Thiam</h5>
 
                                     
                                    <div class="book_card_icone inline-flex items-center gap-5 ">
                                     <a href="" class="inline-flex items-center justify-between rounded-full bg-gray-100 font-medium  p-2 hover:bg-yellow-500">
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                                        <svg  class="w-4 h-4 lg:w-8 lg:h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
                                     </a>
 
                                     <a href="" class="inline-flex items-center justify-between rounded-full   bg-gray-100 font-medium  p-2  hover:bg-yellow-500">
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/><path d="M15 5.764v15"/><path d="M9 3.236v15"/></svg>
+                                        <svg  class="w-4 h-4 lg:w-8 lg:h-8" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/><path d="M15 5.764v15"/><path d="M9 3.236v15"/></svg>
                                     </a>
 
                                     <a href="" class="inline-flex items-center justify-between rounded-full   bg-gray-100 font-medium  p-2 hover:bg-yellow-500 ">
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+                                        <svg  class="w-4 h-4 lg:w-8 lg:h-8" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
 
                                         </a>
                                    </div>
 
-                                   <div class="book_card_footer my-10  flex items-center justify-between">
+                                   <div class="book_card_footer mt-5 my-0 lg:mt-10  flex items-center justify-between">
                                        <div class="book_card_f_left flex items-center gap-3">
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
-                                        <h4 class="text-lg font-semibold text-gray-400">24 personnes y vont</h4>
+                                        <svg  class="w-4 h-4 lg:w-8 lg:h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+                                        <h4 class="text-sm lg:text-lg font-semibold text-gray-400">24 personnes y vont</h4>
                                        </div>
                                        <div class="book_card_f_right">
-                                        <svg class="coeur text-indigo-400" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" color="indigo" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                                        <svg class="coeur w-5 h-5 lg:w-8 lg:h-8 text-indigo-400" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" color="indigo" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
                                        </div>
                                    </div>
 
@@ -277,30 +278,31 @@
             
                         </div>
 
-                        <div class="book_content_flot flex rounded-2xl shadow-lg w-xs bg-gray-50 gap-5 p-5 absolute bottom-22 right-[-20%] " >
-                             <img class="rounded-full h-15 w-15" src="/images/photo/grece.jpg"  alt="" srcset="">
+                        <div class="book_content_flot flex rounded-2xl shadow-lg lg:w-xs w-gl bg-gray-50 gap-5 p-5 absolute bottom-[-15%] lg:bottom-40 right-[15%] lg:right-[-25%] " >
+                             <img class="rounded-full h-7 w-7 lg:h-15 lg:w-15" src="/images/photo/grece.jpg"  alt="" srcset="">
                              <div class="flot_right w-full">
-                                <h3 class="font-semibold text-gray-500">En cours</h3>
-                                <h2 class="text-lg font-bold">Voyage à Greece</h2>
-                                <p class="text-md mt-4 font-semibold"><span class="text-indigo-400">40%</span> compléte</p>
-                                <div class="w-full bg-gray-200 rounded-full h-2 my-3">
-                                    <div class="bg-indigo-400 h-2 rounded-full" style="width: 40%"></div>
+                                <h3 class="font-semibold text-sm lg:text-md text-gray-500">En cours</h3>
+                                <h2 class="text-[12px] lg:text-lg font-bold">Voyage à Greece</h2>
+                                <p class="text-[12px] lg:text-lg mt-3 lg:mt-4 font-semibold"><span class="text-indigo-400">40%</span> compléte</p>
+                                <div class="w-30 lg:w-full bg-gray-200 rounded-full h-1 lg:h-2 mt-1 lg:m-2 lg:my-3">
+                                    <div class="bg-indigo-400 h-1 lg:h-2 rounded-full" style="width: 40%"></div>
                                 </div>
                              </div>
                         </div>
                     </div>
               </div>
           </div>
-    </section>  -->
+
+    </section> 
 
      <section class="w-full  pt-[7%] mb-[12%]  px-10 lg:px-30  xl:px-50    flex flex-col lg:flex-row">
         <div class="w-full lg:w-1/3 text-center lg:text-left my-20 lg:my-0 ">
-            <h3 class="text-lg lg:text-xl xl:text-2xl font-medium text-blue-900 opacity-70">TESTIMONIALS</h3>
-            <h1 class="text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl/20  text-center lg:text-left text-blue-950  my-10 mb-20">What people say about Us.</h1>
+            <h3 class="text-md lg:text-xl xl:text-2xl font-medium text-blue-900 opacity-70">TESTIMONIALS</h3>
+            <h1 class="text-xl lg:text-5xl xl:text-6xl 2xl:text-7xl/20  text-center lg:text-left text-blue-950  my-5 mb-10">What people say about Us.</h1>
             <div class=" flex gap-5 items-center justify-center lg:justify-start "> 
-                <span class="rounded-full h-1 W-1 p-1 bg-gray-700"></span>
-                <span class="rounded-full h-1 W-1 p-1 bg-gray-200"></span>
-                <span class="rounded-full h-1 W-1 p-1 bg-gray-200"></span>
+                <span class="rounded-full h-[1px] w-[1px]  md:h-1 md:w-1 p-[3px] md:p-1  bg-gray-700"></span>
+                <span class="rounded-full h-[1px] w-[1px]  md:h-1 md:w-1 p-[3px] md:p-1 bg-gray-200"></span>
+                <span class="rounded-full h-[1px] w-[1px]  md:h-1 md:w-1 p-[3px] md:p-1 bg-gray-200"></span>
             </div>
 
         </div>
