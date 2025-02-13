@@ -53,15 +53,13 @@ input::placeholder {
    
 }
 
-.nav_link {
-    display: none;
-    
- 
-
-}
 
 
 @media  (max-width:1050px) {
+
+    .nav_link{
+        display: none;
+    }
 
     .nav_link.active{
         display :flex;
